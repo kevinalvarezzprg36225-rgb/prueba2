@@ -73,5 +73,12 @@ namespace prueba2
 			resultado= a/b;
 			MessageBox.Show("el resultado es: "+ Convert.ToString(resultado));			
 		}
+		
+		void BtnformulaClick(object sender, EventArgs e)
+		{
+			Form1_formulageneral formula = new Form1_formulageneral();
+			formula.Show();
+			this.Hide();
+		}
 	}
 }

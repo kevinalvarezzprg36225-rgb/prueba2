@@ -40,11 +40,11 @@ namespace prueba2
 			this.label2 = new System.Windows.Forms.Label();
 			this.txt1 = new System.Windows.Forms.TextBox();
 			this.txt2 = new System.Windows.Forms.TextBox();
-			this.lblresultado = new System.Windows.Forms.Label();
 			this.btnsuma = new System.Windows.Forms.Button();
 			this.btnresta = new System.Windows.Forms.Button();
 			this.btndivi = new System.Windows.Forms.Button();
 			this.btnmulti = new System.Windows.Forms.Button();
+			this.btnformula = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -76,13 +76,6 @@ namespace prueba2
 			this.txt2.Name = "txt2";
 			this.txt2.Size = new System.Drawing.Size(180, 22);
 			this.txt2.TabIndex = 3;
-			// 
-			// lblresultado
-			// 
-			this.lblresultado.Location = new System.Drawing.Point(30, 335);
-			this.lblresultado.Name = "lblresultado";
-			this.lblresultado.Size = new System.Drawing.Size(523, 23);
-			this.lblresultado.TabIndex = 4;
 			// 
 			// btnsuma
 			// 
@@ -124,16 +117,26 @@ namespace prueba2
 			this.btnmulti.UseVisualStyleBackColor = true;
 			this.btnmulti.Click += new System.EventHandler(this.BtnmultiClick);
 			// 
+			// btnformula
+			// 
+			this.btnformula.Location = new System.Drawing.Point(227, 328);
+			this.btnformula.Name = "btnformula";
+			this.btnformula.Size = new System.Drawing.Size(153, 57);
+			this.btnformula.TabIndex = 10;
+			this.btnformula.Text = "formula general";
+			this.btnformula.UseVisualStyleBackColor = true;
+			this.btnformula.Click += new System.EventHandler(this.BtnformulaClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(630, 428);
+			this.Controls.Add(this.btnformula);
 			this.Controls.Add(this.btnmulti);
 			this.Controls.Add(this.btndivi);
 			this.Controls.Add(this.btnresta);
 			this.Controls.Add(this.btnsuma);
-			this.Controls.Add(this.lblresultado);
 			this.Controls.Add(this.txt2);
 			this.Controls.Add(this.txt1);
 			this.Controls.Add(this.label2);
@@ -143,11 +146,11 @@ namespace prueba2
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnformula;
 		private System.Windows.Forms.Button btnmulti;
 		private System.Windows.Forms.Button btndivi;
 		private System.Windows.Forms.Button btnresta;
 		private System.Windows.Forms.Button btnsuma;
-		private System.Windows.Forms.Label lblresultado;
 		private System.Windows.Forms.TextBox txt2;
 		private System.Windows.Forms.TextBox txt1;
 		private System.Windows.Forms.Label label2;
