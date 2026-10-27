@@ -1,0 +1,7 @@
+C:\Users\zavala\prueba2\prueba2\prueba2\obj\Debug\prueba2.csprojResolveAssemblyReference.cache
+C:\Users\zavala\prueba2\prueba2\prueba2\obj\Debug\prueba2.MainForm.resources
+C:\Users\zavala\prueba2\prueba2\prueba2\obj\Debug\prueba2.csproj.GenerateResource.Cache
+C:\Users\zavala\prueba2\prueba2\prueba2\bin\Debug\prueba2.exe
+C:\Users\zavala\prueba2\prueba2\prueba2\bin\Debug\prueba2.pdb
+C:\Users\zavala\prueba2\prueba2\prueba2\obj\Debug\prueba2.exe
+C:\Users\zavala\prueba2\prueba2\prueba2\obj\Debug\prueba2.pdb
