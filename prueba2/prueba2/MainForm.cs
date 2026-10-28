@@ -80,5 +80,16 @@ namespace prueba2
 			formula.Show();
 			this.Hide();
 		}
+		
+		void BtnmoduloClick(object sender, EventArgs e)
+		{
+			double a, b, resultado;
+			resultado=0;
+			a=Convert.ToDouble(txt1.Text);
+			b=Convert.ToDouble(txt2.Text);
+			
+			resultado= a % b;
+			MessageBox.Show("el resultado es: "+ Convert.ToString(resultado));				
+		}
 	}
 }

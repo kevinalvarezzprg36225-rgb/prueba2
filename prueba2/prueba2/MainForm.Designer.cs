@@ -45,6 +45,7 @@ namespace prueba2
 			this.btndivi = new System.Windows.Forms.Button();
 			this.btnmulti = new System.Windows.Forms.Button();
 			this.btnformula = new System.Windows.Forms.Button();
+			this.btnmodulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -119,7 +120,7 @@ namespace prueba2
 			// 
 			// btnformula
 			// 
-			this.btnformula.Location = new System.Drawing.Point(227, 328);
+			this.btnformula.Location = new System.Drawing.Point(446, 359);
 			this.btnformula.Name = "btnformula";
 			this.btnformula.Size = new System.Drawing.Size(153, 57);
 			this.btnformula.TabIndex = 10;
@@ -127,11 +128,22 @@ namespace prueba2
 			this.btnformula.UseVisualStyleBackColor = true;
 			this.btnformula.Click += new System.EventHandler(this.BtnformulaClick);
 			// 
+			// btnmodulo
+			// 
+			this.btnmodulo.Location = new System.Drawing.Point(31, 301);
+			this.btnmodulo.Name = "btnmodulo";
+			this.btnmodulo.Size = new System.Drawing.Size(111, 31);
+			this.btnmodulo.TabIndex = 11;
+			this.btnmodulo.Text = "Modulo";
+			this.btnmodulo.UseVisualStyleBackColor = true;
+			this.btnmodulo.Click += new System.EventHandler(this.BtnmoduloClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(630, 428);
+			this.Controls.Add(this.btnmodulo);
 			this.Controls.Add(this.btnformula);
 			this.Controls.Add(this.btnmulti);
 			this.Controls.Add(this.btndivi);
@@ -146,6 +158,7 @@ namespace prueba2
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnmodulo;
 		private System.Windows.Forms.Button btnformula;
 		private System.Windows.Forms.Button btnmulti;
 		private System.Windows.Forms.Button btndivi;
